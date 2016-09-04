@@ -20,7 +20,7 @@ namespace PoC.Easy.Web.Controllers
             var model = _allUsersQueryHandler.Execute(query);
 
             //В данном случае не важен движок рендеринга вью
-            //Модель мы собираем извне и передаем в слой рендеринга.
+            //Модель мы собираем извне и передаем в слой рендеринга. 
             return View(model);
         }
     }
